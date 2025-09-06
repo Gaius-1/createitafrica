@@ -70,18 +70,24 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="services-video">
-                    <video
-                        autoPlay
-                        muted
-                        loop
-                        playsInline
-                        className="services-video-player"
-                    >
-                        <source src="/assets/service-showcase.mp4" type="video/mp4" />
-                        <source src="/assets/service-showcase.webm" type="video/webm" />
-                        Your browser does not support the video tag.
-                    </video>
+                <div className="services-video-section">
+                    <div className="services-video-header">
+                        <h3>Motion Graphics & Animation Showcase</h3>
+                        <p>Experience our creative motion design work and animation expertise</p>
+                    </div>
+                    <div className="services-video">
+                        <video
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            className="services-video-player"
+                        >
+                            <source src="/videos/showreel.mp4" type="video/mp4" />
+                            <source src="/videos/showreel.webm" type="video/webm" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
             </div>
         </section>
